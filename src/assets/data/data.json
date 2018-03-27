@@ -1,0 +1,307 @@
+{
+    "components": [
+        {
+            "title": "Instagram Feed",
+            "description": "Display a list of user images from Instagram.",
+            "url": "https://github.com/splitinfinities/instagram-feed",
+            "image": "/assets/images/instafeed.jpg"
+        },
+        {
+            "title": "iOS Toggle",
+            "description": "Displays iOS style toggle checkbox.",
+            "url": "https://github.com/andregoncalves/stencil-ios-toggle",
+            "image": "/assets/images/toggle.jpg"
+        },
+        {
+            "title": "Smart Image",
+            "description": "Super performant lazy loading image component.",
+            "url": "https://github.com/splitinfinities/smart-image",
+            "image": "/assets/images/smart-image.jpg"
+        },
+        {
+            "title": "Web Audio",
+            "description": "HTML tags that simplify Web Audio API and make wrapping sources in effects super simple!",
+            "url": "https://github.com/splitinfinities/web-audio-wc",
+            "image": "/assets/images/web-audio.jpg"
+        },
+        {
+            "title": "Content Placeholder",
+            "description": "Placeholder content while your data is loading.",
+            "url": "https://github.com/o-rango/o-content-placeholder",
+            "image": "/assets/images/placeholder.jpg"
+        },
+        {
+            "title": "Helmet",
+            "description": "Declaratively update the <head> from a Stencil app.",
+            "url": "https://github.com/ionic-team/stencil-helmet",
+            "image": "/assets/images/helmet.jpg"
+        },
+        {
+            "title": "Time Picker",
+            "description": "A simple time picker with a select/dropdown list.",
+            "url": "https://github.com/andregoncalves/stencil-timepicker",
+            "image": "/assets/images/timepicker.jpg"
+        },
+        {
+            "title": "Lottie",
+            "description": "Simple web component to use lottie animations by Airbnb.",
+            "url": "https://github.com/splitinfinities/lottie-wc",
+            "image": "/assets/images/lottie.jpg"
+        },
+        {
+            "title": "Props",
+            "description": "Passes data attributes as props to Stencil components.",
+            "url": "https://github.com/jagreehal/stencil-props",
+            "image": "/assets/images/prop.jpg"
+        },
+        {
+            "title": "Spinner",
+            "description": "Loading spinner component.",
+            "url": "https://github.com/seanwuapps/stencil-loading-spinner",
+            "image": "/assets/images/spinner.jpg"
+        },
+        {
+            "title": "Color Picker",
+            "description": "ColorPicker is a Web Component to select a color.",
+            "url": "https://github.com/jepiqueau/stencil-color-picker",
+            "image": "/assets/images/colorpicker.jpg"
+        },
+        {
+            "title": "Photo Filter",
+            "description": "Web Photo Filter is a web component to apply Instagram-like WebGL filters to photos.",
+            "url": "https://github.com/peterpeterparker/web-photo-filter",
+            "image": "/assets/images/photofilter.jpg"
+        },
+        {
+            "title": "Web Share",
+            "description": "Web component built with Stencil that makes the web share api trivial to use.",
+            "url": "https://github.com/jgw96/web-share",
+            "image": "/assets/images/webshare.jpg"
+        },
+        {
+            "title": "Rating",
+            "description": "Basic rating web-component. It allows for a max rating to be set as well as user input.",
+            "url": "https://github.com/alasdairmackenzie/am-rating",
+            "image": "/assets/images/rating.jpg"
+        },
+        {
+            "title": "Voice2Text",
+            "description": "Component allows you to use the Web Speech API.",
+            "url": "https://github.com/Fdom92/stencil-voice2text",
+            "image": "/assets/images/voice2text.jpg"
+        },
+        {
+            "title": "Complete Table",
+            "description": "A full featured component to display a tabe of data.",
+            "url": "https://github.com/splitinfinities/complete-table",
+            "image": "/assets/images/table.jpg"
+        },
+        {
+            "title": "UI Avatar",
+            "description": "Render user avatar in your web app or name intials if no avatar is set.",
+            "url": "https://github.com/mappmechanic/awesome-stenciljs",
+            "image": "/assets/images/uiavatar.jpg"
+        },
+        {
+            "title": "Country List",
+            "description": "A select/dropdown list of countries and their respective ISO country codes (ISO-3166-1 - Alpha 2).",
+            "url": "https://github.com/andregoncalves/stencil-countrylist",
+            "image": "/assets/images/countrylist.jpg"
+        },
+        {
+            "title": "Flippy",
+            "description": "Add Flip animation events to any HTML element.",
+            "url": "https://github.com/zwacky/st-flippy",
+            "image": "/assets/images/flippy.jpg"
+        },
+        {
+            "title": "Virtual Scroll",
+            "description": "Standalone Virtual Scroll Web Component using Stencil.",
+            "url": "https://github.com/mgnstudio7/stenciljs-virtual-scroll",
+            "image": "/assets/images/vscroll.jpg"
+        },
+        {
+            "title": "Signature",
+            "description": "Enables the user to sign on screen and to get the bitmap of the signature.",
+            "url": "https://github.com/gilf/st-signature",
+            "image": "/assets/images/Signature.jpg"
+        },
+        {
+            "title": "Payment",
+            "description": "Allows you to use the Payment Request API.",
+            "url": "https://github.com/Fdom92/stencil-payment",
+            "image": "/assets/images/payment.jpg"
+        },
+        {
+            "title": "Column Chart",
+            "description": "Web Component to display a column chart using SVG Elements.",
+            "url": "https://github.com/jepiqueau/stencil-column-chart",
+            "image": "/assets/images/chart.jpg"
+        },
+        {
+            "title": "Flip Images",
+            "description": "FlipImages is a Web Component to flip a set of images of same size.",
+            "url": "https://github.com/jepiqueau/stencil-flip-images",
+            "image": "/assets/images/flipimage.jpg"
+        }
+    ],
+    "plugins": [
+        {
+            "title": "Router",
+            "description": "A simple router, inspired by React Router v4, for Stencil apps and vanilla Web Component apps.",
+            "url": "https://github.com/ionic-team/stencil-router",
+            "image": "/assets/images/router.jpg"
+        },
+        {
+            "title": "Sass",
+            "description": "This plugin is used to easily precompile Sass files within the Stencil components.",
+            "url": "https://github.com/ionic-team/stencil-sass",
+            "image": "/assets/images/sass.jpg"
+        },
+        {
+            "title": "CLI",
+            "description": "CLI to create Stencil components in your current working directory.",
+            "url": "https://github.com/jagreehal/st-cc",
+            "image": "/assets/images/cli.jpg"
+        },
+        {
+            "title": "Redux",
+            "description": "A simple redux connector for Stencil-built web components inspired by react-redux.",
+            "url": "https://github.com/ionic-team/stencil-redux",
+            "image": "/assets/images/redux.jpg"
+        },
+        {
+            "title": "WebPack",
+            "description": "The webpack plugin allows apps to easily import components using the webpack bundler.",
+            "url": "https://github.com/ionic-team/stencil-webpack",
+            "image": "/assets/images/webpack.jpg"
+        },
+        {
+            "title": "PostCSS",
+            "description": "This plugin is used in order to integrate with postcss and all of its plugins.",
+            "url": "https://github.com/ionic-team/stencil-postcss",
+            "image": "/assets/images/postcss.jpg"
+        },
+        {
+            "title": "Stylus",
+            "description": "This plugin is used to easily precompile Stylus files within Stencil components.",
+            "url": "https://github.com/ionic-team/stencil-stylus",
+            "image": "/assets/images/stylus.jpg"
+        },
+        {
+            "title": "less",
+            "description": "This plugin is used to easily precompile Less files within the Stencil components.",
+            "url": "https://github.com/ionic-team/stencil-less",
+            "image": "/assets/images/less.jpg"
+        },
+        {
+            "title": "Component Generator",
+            "description": "Yeoman genenrator for stencil component template.",
+            "url": "https://github.com/quanganh206/generator-stencil-component",
+            "image": "/assets/images/yeoman.jpg"
+        },
+        {
+            "title": "Dev Server",
+            "description": "This is a very simple http-server with a filewatcher and livereload built in.",
+            "url": "https://github.com/ionic-team/stencil-dev-server",
+            "image": "/assets/images/devserver.jpg"
+        }
+
+    ],
+    "ui": [
+        {
+            "title": "ionic",
+            "description": "Ionic Core contains reusable UI building blocks of Ionic Framework.",
+            "url": "https://github.com/ionic-team/ionic/tree/master/core",
+            "image": "/assets/images/ionic.jpg"
+        },
+        {
+            "title": "Blaze",
+            "description": "Modular UI Toolkit - utilising BEM conventions to provide great structure for building websites quickly.",
+            "url": "https://github.com/BlazeUI/blaze",
+            "image": "/assets/images/blaze.jpg"
+        },
+        {
+            "title": "Material Design",
+            "description": "Webcomponents that implement Google's Material Design.",
+            "url": "https://github.com/san2beerelli/material-webcomponents",
+            "image": "/assets/images/md.jpg"
+        },
+        {
+            "title": "Bootstrap 4",
+            "description": "Bootstrap 4 Web Components built with stenciljs.",
+            "url": "https://github.com/kshaaban-/stencil-bootstrap",
+            "image": "/assets/images/bootstrap.jpg"
+        }
+    ],
+    "learn": [
+        {
+            "title": "Building a PWA: An Introduction to Stencil",
+            "description": "This tutorial series is targeted at people who are already familiar with building Ionic/Angular applications – many concepts will be explained in that context.",
+            "url": "https://www.joshmorony.com/building-a-pwa-with-stencil-an-introduction-to-stencil/",
+            "image": "/assets/images/intropwa.jpg"
+        },
+        {
+            "title": "ng stencil",
+            "description": "Example of how to connect a web component (generated with Stencil) with a basic angular project.",
+            "url": "https://github.com/seveves/angular-stencil",
+            "image": "/assets/images/ng-st.jpg"
+        },
+        {
+            "title": "Getting started with stenciljs",
+            "description": "Basics of Stencil and by following a practical example you’ll learn how to implement your first web component with Stencil.",
+            "url": "https://codingthesmartway.com/getting-started-with-stencil-a-web-component-generator/",
+            "image": "/assets/images/101.jpg"
+        },
+        {
+            "title": "Faster web apps",
+            "description": "In this video we look at using the Stencil compiler to create faster web applications.",
+            "url": "https://www.youtube.com/watch?v=mnsjL-WYzKQ",
+            "image": "/assets/images/faster.jpg"
+        },
+        {
+            "title": "Paged Dataset",
+            "description": "Example to build component-based pagination with a remote data source.",
+            "url": "https://github.com/cnunciato/stencil-paged-dataset-example",
+            "image": "/assets/images/paged.jpg"
+        },
+        {
+            "title": "Publishing a Stencil Web Component",
+            "description": "Publish a web component on npm, how to use it in an Ionic/Angular application.",
+            "url": "https://www.joshmorony.com/publishing-a-web-component-using-stencil-and-using-it-anywhere/",
+            "image": "/assets/images/publish.jpg"
+        },
+        {
+            "title": "Using Stencil with a Public API Method",
+            "description": "Easily make a one-line call from anywhere in the application to display a flash message.",
+            "url": "https://www.joshmorony.com/using-stencil-to-create-a-custom-web-component-with-a-public-api-method/",
+            "image": "/assets/images/pubapi.jpg"
+        }
+    ],
+    "apps": [
+        {
+            "title": "ToDo List",
+            "description": "Simple ToDo list app.",
+            "url": "https://wc-todo.firebaseapp.com/stencil-prerendered/",
+            "image": "/assets/images/todo.jpg"
+        },
+        {
+            "title": "Hacker News Reader",
+            "description": "Example of using stencil to build a news reader.",
+            "url": "https://corehacker-10883.firebaseapp.com",
+            "image": "/assets/images/hacker.jpg"
+        },
+        {
+            "title": "InstaWeather",
+            "description": "Example of using stencil to build a news reader.",
+            "url": "https://instaweather-18c06.firebaseapp.com",
+            "image": "/assets/images/weather.jpg"
+        },
+        {
+            "title": "IonicBeer",
+            "description": "Ionic stencil example with geolocation for bars.",
+            "url": "https://stencilbeer.firebaseapp.com",
+            "image": "/assets/images/ionicbeer.jpg"
+        }
+    ]
+}
