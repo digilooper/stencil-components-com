@@ -1,4 +1,4 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, State } from '@stencil/core';
 
 import { ComponentData } from '../../providers/component-data';
 
@@ -8,11 +8,14 @@ import { ComponentData } from '../../providers/component-data';
 })
 export class AppComponentGrid {
 
-  items: any[] = [];
-
+  @State() items: any[] = [];
   @Prop() filter: string;
 
   async componentWillLoad() {
+    this.items = await ComponentData.getComponents(this.filter);
+  }
+
+  async componentWillUpdate() {
     this.items = await ComponentData.getComponents(this.filter);
   }
 

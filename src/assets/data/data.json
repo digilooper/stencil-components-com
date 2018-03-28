@@ -303,5 +303,25 @@
             "url": "https://stencilbeer.firebaseapp.com",
             "image": "/assets/images/ionicbeer.jpg"
         }
+    ],
+    "starters": [
+        {
+            "title": "ionic PWA",
+            "description": "Ionic recommended solution for building lightning fast PWAs. Go from 0 to production ready PWA with Ionic and Stencil.",
+            "url": "https://github.com/ionic-team/ionic-pwa-toolkit",
+            "image": "/assets/images/ionic.jpg"
+        },
+        {
+            "title": "stencil App",
+            "description": "Minimal starter project for building web components (or apps!) with Stencil.",
+            "url": "https://github.com/ionic-team/stencil-app-starter",
+            "image": "/assets/images/stencil.jpg"
+        },
+        {
+            "title": "ionic Conference App",
+            "description": "A conference app built with Stencil to demonstrate Ionic.",
+            "url": "https://github.com/ionic-team/ionic-stencil-conference-app",
+            "image": "/assets/images/ionconf.jpg"
+        }
     ]
 }

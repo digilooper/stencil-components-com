@@ -192,6 +192,33 @@ declare global {
 
 
 declare global {
+  interface HTMLAppToolsElement extends HTMLStencilElement {
+    'match': MatchResults;
+  }
+  var HTMLAppToolsElement: {
+    prototype: HTMLAppToolsElement;
+    new (): HTMLAppToolsElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-tools': HTMLAppToolsElement;
+  }
+  interface ElementTagNameMap {
+    'app-tools': HTMLAppToolsElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-tools': JSXElements.AppToolsAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppToolsAttributes extends HTMLAttributes {
+      'match'?: MatchResults;
+    }
+  }
+}
+
+
+declare global {
   interface HTMLAppUiElement extends HTMLStencilElement {
 
   }

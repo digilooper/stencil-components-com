@@ -10,6 +10,7 @@ class ComponentDataController {
     } else {
       const rsp = await fetch('/assets/data/data.json');
       const json = await rsp.json();
+      this.data = json;
       return json;
     }
   }

@@ -25,12 +25,8 @@ export class MyApp {
                         Compontents
                     </stencil-route-link>
 
-                    <stencil-route-link url='/plugins' exact={true}>
-                        Plugins
-                    </stencil-route-link>
-
-                    <stencil-route-link url='/ui' exact={true}>
-                        UI
+                    <stencil-route-link url='/tools/plugins' urlMatch={['/tools/:filter']}>
+                        Tools
                     </stencil-route-link>
 
                     <stencil-route-link url='/learn' exact={true}>
@@ -51,8 +47,7 @@ export class MyApp {
               <div class="wrapper">
                     <stencil-router>
                       <stencil-route url='/' component='app-home' exact={true}></stencil-route>
-                      <stencil-route url='/plugins' component='app-plugins' exact={true}></stencil-route>
-                      <stencil-route url='/ui' component='app-ui' exact={true}></stencil-route>
+                      <stencil-route url='/tools/:filter' component='app-tools' exact={true}></stencil-route>
                       <stencil-route url='/learn' component='app-learn' exact={true}></stencil-route>
                       <stencil-route url='/apps' component='app-apps' exact={true}></stencil-route>
                     </stencil-router>
