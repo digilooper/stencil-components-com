@@ -25,7 +25,9 @@ export class AppComponentGrid {
           {this.items.map(item => (
               <a target="_blank" href={item.url}>
             <div class="item">
-                <div class="item-image"><img alt={item.title} src={item.image ? item.image : '/assets/images/blank.jpg' }/></div>
+                <div class="item-image">
+                    <img alt={item.title} src={item.image ? item.image : '/assets/images/blank.jpg' }/>
+                </div>
                 <h4>{item.title}</h4>
                 <div class="item-description block-with-text">
                     <p>{item.description}</p>

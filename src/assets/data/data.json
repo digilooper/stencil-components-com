@@ -293,7 +293,7 @@
         },
         {
             "title": "InstaWeather",
-            "description": "Example of using stencil to build a news reader.",
+            "description": "Example of using stencil to build a geolocation app.",
             "url": "https://instaweather-18c06.firebaseapp.com",
             "image": "/assets/images/weather.jpg"
         },
