@@ -22,18 +22,18 @@ export class MyApp {
             <div class="pull-right">
 
                     <stencil-route-link url='/' exact={true}>
-                        Compontents
+                        Components
                     </stencil-route-link>
 
-                    <stencil-route-link url='/tools/plugins' urlMatch={['/tools/:filter']}>
+                    <stencil-route-link url='/tools/plugins/' urlMatch={['/tools/:filter/']}>
                         Tools
                     </stencil-route-link>
 
-                    <stencil-route-link url='/learn' exact={true}>
+                    <stencil-route-link url='/learn/' exact={true}>
                         Learn
                     </stencil-route-link>
 
-                    <stencil-route-link url='/apps' exact={true}>
+                    <stencil-route-link url='/apps/' exact={true}>
                         Apps
                     </stencil-route-link>
 
@@ -47,9 +47,9 @@ export class MyApp {
               <div class="wrapper">
                     <stencil-router>
                       <stencil-route url='/' component='app-home' exact={true}></stencil-route>
-                      <stencil-route url='/tools/:filter' component='app-tools' exact={true}></stencil-route>
-                      <stencil-route url='/learn' component='app-learn' exact={true}></stencil-route>
-                      <stencil-route url='/apps' component='app-apps' exact={true}></stencil-route>
+                      <stencil-route url='/tools/:filter/' component='app-tools' exact={true}></stencil-route>
+                      <stencil-route url='/learn/' component='app-learn' exact={true}></stencil-route>
+                      <stencil-route url='/apps/' component='app-apps' exact={true}></stencil-route>
                     </stencil-router>
                 </div>
           </main>

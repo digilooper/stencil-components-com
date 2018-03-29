@@ -21,11 +21,11 @@ export class AppTools {
         <div class="app-home">
             <h2 class="text-center">Tools to help you build stenciljs projects.</h2>
             <div class="app-segment">
-                <stencil-route-link url='/tools/plugins' exact={true}>Plugins</stencil-route-link>
+                <stencil-route-link url='/tools/plugins/' exact={true}>Plugins</stencil-route-link>
 
-                <stencil-route-link url='/tools/ui' exact={true}>UI</stencil-route-link>
+                <stencil-route-link url='/tools/ui/' exact={true}>UI</stencil-route-link>
 
-                <stencil-route-link url='/tools/starters' exact={true}>Starters</stencil-route-link>
+                <stencil-route-link url='/tools/starters/' exact={true}>Starters</stencil-route-link>
             </div>
             <app-component-grid filter={this.gridfilter}></app-component-grid>
         </div>
