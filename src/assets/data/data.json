@@ -19,6 +19,12 @@
             "image": "/assets/images/smart-image.jpg"
         },
         {
+            "title": "Twitter",
+            "description": "Display a Twitter timeline or buttons.",
+            "url": "https://github.com/modemlooper/st-twitter",
+            "image": "/assets/images/twitter.jpg"
+        },
+        {
             "title": "Web Audio",
             "description": "HTML tags that simplify Web Audio API and make wrapping sources in effects super simple!",
             "url": "https://github.com/splitinfinities/web-audio-wc",
