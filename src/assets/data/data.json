@@ -130,7 +130,7 @@
             "title": "Signature",
             "description": "Enables the user to sign on screen and to get the bitmap of the signature.",
             "url": "https://github.com/gilf/st-signature",
-            "image": "/assets/images/Signature.jpg"
+            "image": "/assets/images/signature.jpg"
         },
         {
             "title": "Payment",

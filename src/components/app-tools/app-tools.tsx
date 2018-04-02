@@ -10,6 +10,12 @@ export class AppTools {
   @Prop() match: MatchResults;
   @State() gridfilter: string = "plugins";
 
+  componentWillLoad() {
+    if ( "filter" in this.match.params ) {
+      this.gridfilter = this.match.params.filter;
+    }
+  }
+
   componentWillUpdate() {
     if ( "filter" in this.match.params ) {
       this.gridfilter = this.match.params.filter;
