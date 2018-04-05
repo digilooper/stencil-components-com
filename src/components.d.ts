@@ -165,27 +165,27 @@ declare global {
 
 
 declare global {
-  interface HTMLAppProfileElement extends HTMLStencilElement {
-    'match': MatchResults;
+  interface HTMLAppSubmitElement extends HTMLStencilElement {
+
   }
-  var HTMLAppProfileElement: {
-    prototype: HTMLAppProfileElement;
-    new (): HTMLAppProfileElement;
+  var HTMLAppSubmitElement: {
+    prototype: HTMLAppSubmitElement;
+    new (): HTMLAppSubmitElement;
   };
   interface HTMLElementTagNameMap {
-    'app-profile': HTMLAppProfileElement;
+    'app-submit': HTMLAppSubmitElement;
   }
   interface ElementTagNameMap {
-    'app-profile': HTMLAppProfileElement;
+    'app-submit': HTMLAppSubmitElement;
   }
   namespace JSX {
     interface IntrinsicElements {
-      'app-profile': JSXElements.AppProfileAttributes;
+      'app-submit': JSXElements.AppSubmitAttributes;
     }
   }
   namespace JSXElements {
-    export interface AppProfileAttributes extends HTMLAttributes {
-      'match'?: MatchResults;
+    export interface AppSubmitAttributes extends HTMLAttributes {
+
     }
   }
 }

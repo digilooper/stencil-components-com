@@ -9,10 +9,8 @@ class ComponentDataController {
       return this.data[endpoint];
     } else {
       const rsp = await fetch( endpoint );
-      //const rsp = await fetch('/assets/data/data.json');
       const json = await rsp.json();
       this.data[endpoint] = json;
-      console.log(endpoint);
       return json;
     }
   }
