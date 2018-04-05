@@ -44,15 +44,6 @@
     margin: 0 0 20px 0;
 }
 
-.message {
-    text-align: center;
-    padding: 20px;
-}
-
-.error {
-
-}
-
 .block-with-text {
       overflow: hidden;
       line-height: 1.2em;

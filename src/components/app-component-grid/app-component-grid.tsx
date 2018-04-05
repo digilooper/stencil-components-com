@@ -20,7 +20,6 @@ export class AppComponentGrid {
   api: string = 'https://api.stencilcomponents.com/1.0/';
 
   componentWillLoad() {
-      console.log( this.filter );
     this.fetchData();
   }
 

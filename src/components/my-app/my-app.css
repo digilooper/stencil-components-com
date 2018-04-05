@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: #595968;
+}
+
 
 #main-div {
     flex-grow: 1;
@@ -107,6 +111,26 @@ header {
     text-align: right;
 }
 
+.message {
+    text-align: center;
+    border-radius: 6px;
+    height: 35px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.success {
+    background: #9cff99;
+    border: 1px solid #92ef8f;
+    color: #51b75c;
+}
+
+.error {
+    background: #ffab99;
+    border: 1px solid #d98472;
+    color: #d26851;
+}
+
 header a, header stencil-route-link a {
     font-size: 14px;
     margin: 8px 0 8px 16px;
@@ -169,7 +193,6 @@ stencil-route-link .link-active {
 stencil-route-link:hover a:not(.link-active) {
   color: #2f2f35;
 }
-
 
 @media screen and (max-width: 450px) {
 

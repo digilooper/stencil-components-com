@@ -37,6 +37,10 @@ export class MyApp {
                         Apps
                     </stencil-route-link>
 
+                    <stencil-route-link url='/submit/' exact={true}>
+                        Submit
+                    </stencil-route-link>
+
                     <a class="cta" target="_blank" href="https://stenciljs.com">stenciljs</a>
             </div>
         </div>
@@ -50,6 +54,7 @@ export class MyApp {
                       <stencil-route url='/tools/:filter/' component='app-tools' exact={true}></stencil-route>
                       <stencil-route url='/learn/' component='app-learn' exact={true}></stencil-route>
                       <stencil-route url='/apps/' component='app-apps' exact={true}></stencil-route>
+                      <stencil-route url='/submit/' component='app-submit' exact={true}></stencil-route>
                     </stencil-router>
                 </div>
           </main>
