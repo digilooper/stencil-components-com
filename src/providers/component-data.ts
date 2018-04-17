@@ -20,6 +20,11 @@ class ComponentDataController {
     return data;
   }
 
+  async getComponent( endpoint ) {
+    const data = await this.load( endpoint );
+    return data;
+  }
+
 }
 
 export const ComponentData = new ComponentDataController();

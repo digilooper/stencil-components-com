@@ -77,6 +77,12 @@ export class AppSubmit {
     <div>
       <h2>Submit your components, tools, and apps.</h2>
       <p>Fill in all fields below and share your awesome thing!</p>
+      <h4>Requirements for component submission:</h4>
+      <ul>
+          <li>URL to resource is a public Github repository.</li>
+          <li>Your repository needs an appropriate license such as MIT.</li>
+          <li>Create a README.md for your repository. Include stencil component usage and examples.</li>
+      </ul>
       <div id="submit-component">
           <div class={'message ' + this.class}>{this.message}</div>
           <form onSubmit={(e) => this.handleSubmit(e)}>
@@ -85,7 +91,7 @@ export class AppSubmit {
               <input type="text" id="url" placeholder="url to resource" required value={this.url} />
               <input type="email" id="email" placeholder="email" required value={this.url} />
               <input type="hidden" id="role" value={this.role} />
-              <p>* submissions will be verified before going live.</p>
+              <p>Submissions will be verified before going live. If you are submitting an app, link to a working example or download.</p>
               <input type="submit" value={this.submit} disabled={this.disabled} />
           </form>
       </div>

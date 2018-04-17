@@ -1,0 +1,30 @@
+.content-list {
+    padding: 30px 0;
+}
+
+.content-list .item {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e6ff;
+}
+
+.content-list .item-image {
+    padding: 10px 10px 0 10px;
+    background: #ffffff;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-list .item-image img {
+    width: 150px;
+}
+
+.content-list .item h4 {
+    margin: 0;
+    color: #484854;
+}
+
+.content-list .item-content {
+    margin-left: 160px;
+}

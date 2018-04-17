@@ -10,7 +10,7 @@ export class AppApps {
     return (
         <div class="app-home">
             <h2 class="text-center">Apps built with stenciljs.</h2>
-            <app-component-grid filter="apps"></app-component-grid>
+            <app-apps-grid filter="apps"></app-apps-grid>
         </div>
     );
   }

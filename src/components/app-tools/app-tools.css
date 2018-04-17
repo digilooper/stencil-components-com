@@ -30,7 +30,7 @@ app-tools {
   font-size: 0.9rem;
   line-height: 3rem;
   color: #5850ff;
-  background-color: transparent
+  background-color: #ffffff;
 }
 
 .app-segment a:hover:not(.link-active) {

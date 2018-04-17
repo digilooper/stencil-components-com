@@ -4,6 +4,7 @@ app-submit {
 }
 
 app-submit h2,
+app-submit h4,
 app-submit p {
     text-align: center;
 }
@@ -45,4 +46,17 @@ app-submit p {
 
 #submit-component form p {
     font-size: 14px;
+}
+
+app-submit ul {
+    margin: 0 auto 0 auto;
+    max-width: 60%;
+    color: #595968;
+}
+
+@media screen and (max-width: 722px) {
+
+    app-submit ul {
+        max-width: 90%;
+    }
 }

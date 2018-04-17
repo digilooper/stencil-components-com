@@ -3,10 +3,10 @@ import { Component, Element, Prop, State } from '@stencil/core';
 import { ComponentData } from '../../providers/component-data';
 
 @Component({
-  tag: 'app-component-grid',
-  styleUrl: 'app-component-grid.css'
+  tag: 'app-apps-grid',
+  styleUrl: 'app-apps-grid.css'
 })
-export class AppComponentGrid {
+export class AppAppsGrid {
 
   @Element() el: any;
 
@@ -69,22 +69,15 @@ export class AppComponentGrid {
             {this.items.map(item => (
 
               <div class="item">
-                <stencil-route-link class="grid-link" url={'/component/' + item.slug + '/'}>
+                <a target="_blank" class="grid-link" href={item.url}>
                   <div class="item-image">
                       <img alt={item.title} src={item.image ? item.image : '/assets/images/blank.jpg' }/>
                   </div>
-
-                  <div class="item-body">
-                    <h4>{item.title}</h4>
-                    <div class="item-description">
+                  <h4>{item.title}</h4>
+                  <div class="item-description block-with-text">
                       <p>{item.content}</p>
-                    </div>
-                    <div class="item-footer">
-                      <img src={item.avatar}/>
-                      <span class="user">by <a href={item.user_url}>{item.user}</a></span>
-                    </div>
                   </div>
-                </stencil-route-link>
+                </a>
               </div>
 
             ))}

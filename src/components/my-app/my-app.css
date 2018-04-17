@@ -1,11 +1,13 @@
 my-app {
     height: 100%;
-    display: flex;
-    flex-flow: column;
 }
 
 stencil-router {
     width: 100%;
+}
+
+body {
+    background: #2a293a;
 }
 
 input,
@@ -19,23 +21,44 @@ a {
 
 a {
     text-decoration: none;
+    color: #5850ff;
 }
 
 p {
     color: #595968;
+    line-height: 1.5em;
 }
 
+blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}
 
-#main-div {
-    flex-grow: 1;
-    flex-shrink: 0;
+pre {
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+}
+
+code {
+    padding: 4px 6px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+}
+
+pre code {
+    padding: 0;
+    border: none;
 }
 
 footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #f8f8fc;
+    background: #2a293a;
     height: 8em;
     display: flex;
     justify-content: space-around;
@@ -53,10 +76,10 @@ header {
     left: 0;
     right: 0;
     z-index: 99;
+    border-bottom: 1px solid #efefef;
 }
 
 .site-header {
-
     height: 56px;
     align-items: center;
     padding: 5px 30px;
@@ -149,16 +172,20 @@ a.cta {
     border-radius: 4px;
 }
 
+#main-div {
+    background: #f8f8fc;
+}
+
 .app {
     height: 100%;
-    max-width: 980px;
+    max-width: 900px;
     margin: auto;
 }
 
 .wrapper {
     line-height: 32px;
     min-height: 100%;
-    min-height: 80vh;
+    min-height: 40vh;
     padding-top: 60px;
     margin: 15px;
     display: flex;
@@ -177,7 +204,6 @@ a.cta {
 }
 
 a {
-  color: #484854;
   text-decoration: none;
 }
 
@@ -190,8 +216,119 @@ stencil-route-link .link-active {
   color: #5850ff;
 }
 
-stencil-route-link:hover a:not(.link-active) {
-  color: #2f2f35;
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100%, auto);
+    padding: 40px 0;
+}
+
+.content-grid .item {
+    position: relative;
+    background: #ffffff;
+    color: #484854;
+    padding: 15px;
+    border: 1px solid #efefef !important;
+}
+
+.content-grid h4 {
+    margin: 15px 0 0 0;
+    overflow: hidden;
+    line-height: 1.2em;
+    color: #484854;
+}
+
+.content-grid .item .item-image {
+    height: 180px;
+    overflow: hidden;
+}
+
+.content-grid .item .item-image img {
+    width: 232px;
+    margin: 0 auto;
+    display: block;
+}
+
+.content-grid p {
+    font-size: 14px;
+    color: #868686;
+    margin: 5px 0;
+}
+
+.content-grid .item-button {
+    border: 1px solid #efefef;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 4px;
+    line-height: 1.1em;
+}
+
+.content-grid .item-body {
+
+}
+
+.content-grid .item-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    border-top: 1px solid #efefef !important;
+    border-color: #efefef !important;
+}
+
+.content-grid .item a {
+    color: #efefef;
+}
+
+.content-grid .item-footer img {
+    width: 35px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content-grid .item-footer .user,
+.content-grid .item-footer .user a {
+  font-size: 0.9em;
+  color: #868686;
+}
+
+.content-grid .item-description {
+
+}
+
+.content-grid .item-description p {
+    overflow: hidden;
+    line-height: 1.5em;
+    margin-bottom: 65px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.content-grid   stencil-route-link {
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 450px) {
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        grid-auto-rows: minmax(100%, auto);
+    }
+}
+
+@media screen and (max-width: 722px) {
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-auto-rows: minmax(100%, auto);
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -212,7 +349,7 @@ stencil-route-link:hover a:not(.link-active) {
     }
 
     .content-grid .item-footer {
-        margin: 0  0 40px 0;
+        text-align: left;
     }
 
 }
@@ -256,5 +393,12 @@ stencil-route-link:hover a:not(.link-active) {
 
   stencil-route-link {
     margin-right: unset;
+  }
+
+  .item-grid {
+      display: grid;
+      grid-template-columns: 100% !important;
+      grid-gap: 10px;
+      padding: 20px 0;
   }
 }

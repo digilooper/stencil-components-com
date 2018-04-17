@@ -3,10 +3,10 @@ import { Component, Element, Prop, State } from '@stencil/core';
 import { ComponentData } from '../../providers/component-data';
 
 @Component({
-  tag: 'app-component-grid',
-  styleUrl: 'app-component-grid.css'
+  tag: 'app-learn-list',
+  styleUrl: 'app-learn-list.css'
 })
-export class AppComponentGrid {
+export class AppLearnList {
 
   @Element() el: any;
 
@@ -29,7 +29,7 @@ export class AppComponentGrid {
   }
 
   async fetchData() {
-      await ComponentData.getComponents( this.switchEndpoint( this.filter ) ).then( (res) => {
+      await ComponentData.getComponents( this.api + 'component/items?category_name=learn' ).then( (res) => {
         this.items = res;
         if ( res.length <= 0 ) {
             this.message = 'No Items.';
@@ -40,23 +40,6 @@ export class AppComponentGrid {
       });
   }
 
-  switchEndpoint( filter ) {
-
-      let endpoint = this.api + 'component/items?category_name=components';
-
-      switch( filter ) {
-          case 'plugins': endpoint = this.api + 'component/items?category_name=tools&tag=plugin'; break;
-          case 'ui': endpoint = this.api + 'component/items?category_name=tools&tag=ui'; break;
-          case 'starters': endpoint = this.api + 'component/items?category_name=tools&tag=starter'; break;
-          case 'learn': endpoint = this.api + 'component/items?category_name=learn'; break;
-          case 'apps': endpoint = this.api + 'component/items?category_name=apps'; break;
-          default: endpoint = this.api + 'component/items?category_name=components';
-      }
-
-      return endpoint;
-
-  }
-
   renderHTML() {
 
       if (this.isLoading) {
@@ -64,27 +47,22 @@ export class AppComponentGrid {
       } else {
 
         return (
-          <div class="content-grid">
+          <div class="content-list">
 
             {this.items.map(item => (
 
               <div class="item">
-                <stencil-route-link class="grid-link" url={'/component/' + item.slug + '/'}>
+                <a target="_blank" class="grid-link" href={item.url}>
                   <div class="item-image">
                       <img alt={item.title} src={item.image ? item.image : '/assets/images/blank.jpg' }/>
                   </div>
-
-                  <div class="item-body">
+                  <div class="item-content">
                     <h4>{item.title}</h4>
-                    <div class="item-description">
+                    <div class="item-description block-with-text">
                       <p>{item.content}</p>
                     </div>
-                    <div class="item-footer">
-                      <img src={item.avatar}/>
-                      <span class="user">by <a href={item.user_url}>{item.user}</a></span>
-                    </div>
                   </div>
-                </stencil-route-link>
+                </a>
               </div>
 
             ))}

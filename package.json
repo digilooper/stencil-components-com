@@ -15,12 +15,13 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "0.7.7",
-    "@stencil/router": "latest"
+    "@stencil/core": "latest",
+    "@stencil/router": "latest",
+    "ionicons": "^4.0.0-19"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
-    "@stencil/postcss": "0.0.4",
+    "@stencil/postcss": "latest",
     "@stencil/utils": "latest",
     "@types/jest": "^21.1.1",
     "autoprefixer": "^8.2.0",

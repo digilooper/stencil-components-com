@@ -24,15 +24,55 @@ declare global {
 }
 
 import '@stencil/router';
+import 'ionicons';
 
 import {
   MatchResults,
 } from '@stencil/router';
 
 declare global {
-  interface HTMLAppAppsElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppAppsGrid {
+      'filter': string;
+    }
   }
+
+  interface HTMLAppAppsGridElement extends StencilComponents.AppAppsGrid, HTMLStencilElement {}
+
+  var HTMLAppAppsGridElement: {
+    prototype: HTMLAppAppsGridElement;
+    new (): HTMLAppAppsGridElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-apps-grid': HTMLAppAppsGridElement;
+  }
+  interface ElementTagNameMap {
+    'app-apps-grid': HTMLAppAppsGridElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-apps-grid': JSXElements.AppAppsGridAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppAppsGridAttributes extends HTMLAttributes {
+      'filter'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface AppApps {
+
+    }
+  }
+
+  interface HTMLAppAppsElement extends StencilComponents.AppApps, HTMLStencilElement {}
+
   var HTMLAppAppsElement: {
     prototype: HTMLAppAppsElement;
     new (): HTMLAppAppsElement;
@@ -57,9 +97,15 @@ declare global {
 
 
 declare global {
-  interface HTMLAppComponentGridElement extends HTMLStencilElement {
-    'filter': string;
+
+  namespace StencilComponents {
+    interface AppComponentGrid {
+      'filter': string;
+    }
   }
+
+  interface HTMLAppComponentGridElement extends StencilComponents.AppComponentGrid, HTMLStencilElement {}
+
   var HTMLAppComponentGridElement: {
     prototype: HTMLAppComponentGridElement;
     new (): HTMLAppComponentGridElement;
@@ -84,9 +130,48 @@ declare global {
 
 
 declare global {
-  interface HTMLAppHomeElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppComponentSingle {
+      'match': MatchResults;
+    }
   }
+
+  interface HTMLAppComponentSingleElement extends StencilComponents.AppComponentSingle, HTMLStencilElement {}
+
+  var HTMLAppComponentSingleElement: {
+    prototype: HTMLAppComponentSingleElement;
+    new (): HTMLAppComponentSingleElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-component-single': HTMLAppComponentSingleElement;
+  }
+  interface ElementTagNameMap {
+    'app-component-single': HTMLAppComponentSingleElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-component-single': JSXElements.AppComponentSingleAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppComponentSingleAttributes extends HTMLAttributes {
+      'match'?: MatchResults;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface AppHome {
+
+    }
+  }
+
+  interface HTMLAppHomeElement extends StencilComponents.AppHome, HTMLStencilElement {}
+
   var HTMLAppHomeElement: {
     prototype: HTMLAppHomeElement;
     new (): HTMLAppHomeElement;
@@ -111,9 +196,48 @@ declare global {
 
 
 declare global {
-  interface HTMLAppLearnElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppLearnList {
+      'filter': string;
+    }
   }
+
+  interface HTMLAppLearnListElement extends StencilComponents.AppLearnList, HTMLStencilElement {}
+
+  var HTMLAppLearnListElement: {
+    prototype: HTMLAppLearnListElement;
+    new (): HTMLAppLearnListElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-learn-list': HTMLAppLearnListElement;
+  }
+  interface ElementTagNameMap {
+    'app-learn-list': HTMLAppLearnListElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-learn-list': JSXElements.AppLearnListAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppLearnListAttributes extends HTMLAttributes {
+      'filter'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface AppLearn {
+
+    }
+  }
+
+  interface HTMLAppLearnElement extends StencilComponents.AppLearn, HTMLStencilElement {}
+
   var HTMLAppLearnElement: {
     prototype: HTMLAppLearnElement;
     new (): HTMLAppLearnElement;
@@ -138,9 +262,15 @@ declare global {
 
 
 declare global {
-  interface HTMLAppPluginsElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppPlugins {
+
+    }
   }
+
+  interface HTMLAppPluginsElement extends StencilComponents.AppPlugins, HTMLStencilElement {}
+
   var HTMLAppPluginsElement: {
     prototype: HTMLAppPluginsElement;
     new (): HTMLAppPluginsElement;
@@ -165,9 +295,15 @@ declare global {
 
 
 declare global {
-  interface HTMLAppSubmitElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppSubmit {
+
+    }
   }
+
+  interface HTMLAppSubmitElement extends StencilComponents.AppSubmit, HTMLStencilElement {}
+
   var HTMLAppSubmitElement: {
     prototype: HTMLAppSubmitElement;
     new (): HTMLAppSubmitElement;
@@ -192,9 +328,15 @@ declare global {
 
 
 declare global {
-  interface HTMLAppToolsElement extends HTMLStencilElement {
-    'match': MatchResults;
+
+  namespace StencilComponents {
+    interface AppTools {
+      'match': MatchResults;
+    }
   }
+
+  interface HTMLAppToolsElement extends StencilComponents.AppTools, HTMLStencilElement {}
+
   var HTMLAppToolsElement: {
     prototype: HTMLAppToolsElement;
     new (): HTMLAppToolsElement;
@@ -219,9 +361,15 @@ declare global {
 
 
 declare global {
-  interface HTMLAppUiElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface AppUi {
+
+    }
   }
+
+  interface HTMLAppUiElement extends StencilComponents.AppUi, HTMLStencilElement {}
+
   var HTMLAppUiElement: {
     prototype: HTMLAppUiElement;
     new (): HTMLAppUiElement;
@@ -246,9 +394,15 @@ declare global {
 
 
 declare global {
-  interface HTMLMyAppElement extends HTMLStencilElement {
 
+  namespace StencilComponents {
+    interface MyApp {
+
+    }
   }
+
+  interface HTMLMyAppElement extends StencilComponents.MyApp, HTMLStencilElement {}
+
   var HTMLMyAppElement: {
     prototype: HTMLMyAppElement;
     new (): HTMLMyAppElement;

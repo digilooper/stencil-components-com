@@ -1,0 +1,83 @@
+app-component-single {
+  display: block; /* by default, custom elements are display: inline */
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: 300px calc(100% - 300px);
+    grid-gap: 30px;
+    padding: 20px 0;
+}
+
+.block {
+    background: #ffffff;
+    color: #8c8ca3;
+    border: 1px solid #efefef;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.block .item {
+    overflow: hidden;
+}
+
+.block a {
+    color: #8c8ca3;
+}
+
+.block img {
+    width: 50px;
+    height: 50px;
+}
+
+.block .icon {
+    display: inline;
+    float: left;
+    stroke-width: 0;
+    stroke: #8c8ca3;
+    fill: #8c8ca3;
+}
+
+.block-header {
+    line-height: 50px;
+    white-space: nowrap;
+    vertical-align: top;
+    display: flex;
+}
+
+.block-header img {
+    margin-right: 10px;
+}
+
+.block-body {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+.block-body .item {
+    float: left;
+    line-height: 39px;
+    width: 25%;
+}
+
+.block-body .icon {
+    width: 2em;
+}
+
+.block-footer {
+    height: 40px;
+    line-height: 25px;
+    font-size: 0.7em;
+    margin: 0px -15px -15px -15px;
+    padding: 15px 15px 0 15px;
+    border-top: 1px solid #f3f3f7;
+}
+
+.readme img {
+    max-width: 100%;
+}
+
+
+.message {
+    padding: 40px;
+}
