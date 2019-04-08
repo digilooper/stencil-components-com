@@ -14,9 +14,22 @@
     "test.watch": "stencil test --spec --e2e --watch"
   },
   "dependencies": {
-    "@ionic/core": "4.0.0"
+    "@ionic/core": "4.0.0",
+    "awesome-yaml-reader": "^1.2.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.1",
+    "js-yaml": "^3.13.0",
+    "load-yaml-file": "^0.1.0",
+    "markdown": "^0.5.0",
+    "string_decoder": "^1.2.0",
+    "yaml": "^1.4.0"
   },
   "devDependencies": {
-    "@stencil/core": "0.17.0"
+    "@stencil/core": "0.17.0",
+    "@types/node": "^11.13.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "workbox-build": "3.4.1"
   }
 }

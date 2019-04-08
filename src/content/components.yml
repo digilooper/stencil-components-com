@@ -1,0 +1,12 @@
+st-twitter:
+  title: Twitter
+  description: Easy Twitter buttons and timelines via a web component.
+  github: https://github.com/modemlooper/st-twitter
+wc-payment:
+  title: Payments Api
+  description: wc-payment is a web component built with Stencil that allows you to use the Payment Request API.
+  github: https://github.com/Fdom92/stencil-payment
+web-share:
+  title: Web Share Api
+  description: web-share is a web component that makes it super easy to use the web share api.
+  github: https://github.com/jgw96/web-share
