@@ -16,7 +16,7 @@ export class AppHome {
   render() {
     return [
       <ion-header>
-        <ion-toolbar color="primary">
+        <ion-toolbar color="clear">
           <ion-title>Components</ion-title>
         </ion-toolbar>
       </ion-header>,

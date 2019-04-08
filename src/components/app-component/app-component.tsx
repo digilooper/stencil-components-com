@@ -34,7 +34,7 @@ export class AppComponent {
   render() {
     return [
       <ion-header>
-        <ion-toolbar color="primary">
+        <ion-toolbar color="clear">
           <ion-buttons slot="start">
             <ion-back-button />
           </ion-buttons>
