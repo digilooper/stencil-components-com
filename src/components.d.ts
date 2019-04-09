@@ -25,6 +25,9 @@ export namespace Components {
 
   interface AppRoot {}
   interface AppRootAttributes extends StencilHTMLAttributes {}
+
+  interface AppSubmit {}
+  interface AppSubmitAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
@@ -32,12 +35,14 @@ declare global {
     'AppComponent': Components.AppComponent;
     'AppHome': Components.AppHome;
     'AppRoot': Components.AppRoot;
+    'AppSubmit': Components.AppSubmit;
   }
 
   interface StencilIntrinsicElements {
     'app-component': Components.AppComponentAttributes;
     'app-home': Components.AppHomeAttributes;
     'app-root': Components.AppRootAttributes;
+    'app-submit': Components.AppSubmitAttributes;
   }
 
 
@@ -59,16 +64,24 @@ declare global {
     new (): HTMLAppRootElement;
   };
 
+  interface HTMLAppSubmitElement extends Components.AppSubmit, HTMLStencilElement {}
+  var HTMLAppSubmitElement: {
+    prototype: HTMLAppSubmitElement;
+    new (): HTMLAppSubmitElement;
+  };
+
   interface HTMLElementTagNameMap {
     'app-component': HTMLAppComponentElement
     'app-home': HTMLAppHomeElement
     'app-root': HTMLAppRootElement
+    'app-submit': HTMLAppSubmitElement
   }
 
   interface ElementTagNameMap {
     'app-component': HTMLAppComponentElement;
     'app-home': HTMLAppHomeElement;
     'app-root': HTMLAppRootElement;
+    'app-submit': HTMLAppSubmitElement;
   }
 
 

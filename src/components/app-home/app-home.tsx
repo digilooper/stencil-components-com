@@ -18,6 +18,9 @@ export class AppHome {
       <ion-header>
         <ion-toolbar color="clear">
           <ion-title>Components</ion-title>
+          <ion-buttons slot="end">
+            <ion-button href="/submit">Submit</ion-button>
+          </ion-buttons>
         </ion-toolbar>
       </ion-header>,
 
