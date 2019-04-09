@@ -10,3 +10,11 @@ web-share:
   title: Web Share Api
   description: web-share is a web component that makes it super easy to use the web share api.
   github: https://github.com/jgw96/web-share
+st-image:
+  title: Lazy Load Image
+  description: Web Component built with Stencil to lazy load images
+  github: https://github.com/jgw96/st-img
+st-muse:
+  title: Muse Device
+  description: st-muse is simple Stencil component that connects into Muse device using muse.js
+  github: https://github.com/gilf/st-muse

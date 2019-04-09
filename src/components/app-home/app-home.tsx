@@ -17,7 +17,7 @@ export class AppHome {
     return [
       <ion-header>
         <ion-toolbar color="clear">
-          <ion-title>Components</ion-title>
+          <ion-title>Stencil Components</ion-title>
           <ion-buttons slot="end">
             <ion-button href="/submit">Submit</ion-button>
           </ion-buttons>
