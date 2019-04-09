@@ -18,3 +18,7 @@ st-muse:
   title: Muse Device
   description: st-muse is simple Stencil component that connects into Muse device using muse.js
   github: https://github.com/gilf/st-muse
+fwt-slider:
+  title: FWT Slider
+  description: Slider Stencil Component demonstrated to work with Angular or any other framework
+  github: https://github.com/seveves/angular-stencil
